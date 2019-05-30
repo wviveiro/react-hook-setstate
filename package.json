@@ -14,7 +14,7 @@
   "keywords": [],
   "author": "Wellington Viveiro <wviveiro@gmail.com>",
   "license": "ISC",
-  "dependencies": {
+  "peerDependencies": {
     "react": "^16.8.6"
   }
 }
