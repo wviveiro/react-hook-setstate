@@ -1,9 +1,9 @@
 # react-hook-setstate
-Create a setState function, similar to this.setState to be used with React Hooks
+Use setState function in react hooks as you would use in react classes.
 
 ## Install
 ```
-npm install -S wviveiro/react-hook-setstate
+npm install -S react-hook-setstate
 ```
 
 ## Usage
