@@ -6,7 +6,7 @@ interface ActionInterface<T> {
     args: Partial<T>
 }
 
-const useCreateState = <T>(initialArgs: T) => {
+const useCreateState = <T>(initialArgs: T): [T, (args: Partial<T>) => void] => {
     const reducer = (defaultState: T, action: ActionInterface<T>) => {
         const modifyState = (args: Partial<T>) => {
             const newState = { ...defaultState, ...args };
