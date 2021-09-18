@@ -1,6 +1,6 @@
 {
   "name": "react-hook-setstate",
-  "version": "0.0.3",
+  "version": "0.1.0",
   "description": "Use setState in react hook like you would use in react classes",
   "homepage": "https://github.com/wviveiro/react-hook-setstate#readme",
   "repository": {
